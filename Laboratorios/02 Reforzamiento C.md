@@ -763,23 +763,27 @@ El iterativo permanece prácticamente constante en todos los casos. El recursivo
 ### El script completo
 
 ```gnuplot
-set terminal pngcairo size 800,500
+set terminal png size 800,500
 set output "data/fibonacci_times.png"
 
 set title  "Fibonacci — Iterativo O(n) vs Recursivo O(2^n)"
 set xlabel "n"
 set ylabel "Tiempo (segundos)"
 
+# CSV usa coma como separador
 set datafile separator ","
-
-plot "data/exec_time.csv" every ::1 using 1:2 with linespoints title "iterativo", \
-     "data/exec_time.csv" every ::1 using 1:3 with linespoints title "recursivo"
+  
+set grid  
+set key left top  
+  
+plot "data/exec_time.csv" using 1:2 with linespoints title "iterativo", \  
+     "data/exec_time.csv" using 1:3 with linespoints title "recursivo",
 ```
 
 Ejecutar desde terminal:
 
 ```bash
-gnuplot plot.gp
+gnuplot plot_f1_f4.gp
 ```
 
 Resultado: `data/fibonacci_times.png`

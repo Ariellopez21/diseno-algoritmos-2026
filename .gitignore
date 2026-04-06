@@ -9,4 +9,4 @@
 recursos_curso
 
 # Ignorar todos los pdf generados.
-*.pdf
+**/*.pdf
