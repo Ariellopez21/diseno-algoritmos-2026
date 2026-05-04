@@ -8,16 +8,17 @@ Las ayudantías tendrán una parte expositiva y una parte de trabajo autónomo d
 
 ## Actualización
 
-#fecha 26-04-2026
+#fecha 04-05-2026
 
-| Laboratorio   | ¿Hubo tarea? | Acerca de           | Contenidos                                                 |
-| ------------- | ------------ | ------------------- | ---------------------------------------------------------- |
-| 23-03 & 25-03 | Si           | LaTeX               | Fundamentos de LaTeX para hacer informes                   |
-| 30-03 & 01-04 | No           | Reforzamiento C     | Manejo fundamental de C +  gnuplot básico                  |
-| 06-04 & 08-04 | Si           | Ordenes Algorítimos | Ejecución de código, exportar en csv y graficar resultados |
-| 13-04 & 15-04 | No           | QuickSort           | Divide y Vencerás a través de QuickSort                    |
-| 22-04 & 24-04 | No           | QuickSelect         | Divide y Vencerás a través de QuickSelect                  |
-| 27-04 & 29-04 | No           | BinSearch           | Divide y Vencerás a través de BinSearch                    |
+| Laboratorio   | ¿Hubo tarea? | Acerca de             | Contenidos                                                   |
+| ------------- | ------------ | --------------------- | ------------------------------------------------------------ |
+| 23-03 & 25-03 | Si           | LaTeX                 | Fundamentos de LaTeX para hacer informes                     |
+| 30-03 & 01-04 | No           | Reforzamiento C       | Manejo fundamental de C +  gnuplot básico                    |
+| 06-04 & 08-04 | Si           | Ordenes Algorítimos   | Ejecución de código, exportar en csv y graficar resultados   |
+| 13-04 & 15-04 | No           | QuickSort             | Divide y Vencerás a través de QuickSort                      |
+| 22-04 & 24-04 | No           | QuickSelect           | Divide y Vencerás a través de QuickSelect                    |
+| 27-04 & 29-04 | No           | BinSearch             | Divide y Vencerás a través de BinSearch                      |
+| 04-05 & 06-05 | No           | Programación dinámica | Con Fibonacci como ejemplo y sus diferentes implementaciones |
 
 ---
 
