@@ -2,14 +2,15 @@
 .obsidian
 .idea
 
-# Contenidos futuros.
-recursos_liberados/pruebas/a.c
-
 # Contenidos sin autorización.
 recursos_curso
 recursos_personales
 Excalidraw/Clase 4.excalidraw.md
 
 
-# Ignorar todos los pdf generados.
+# Ignorar.
 **/*.pdf
+recursos_liberados/pruebas/lab_7/*.o
+recursos_liberados/pruebas/lab_7/*.png
+recursos_liberados/pruebas/lab_7/*.csv
+recursos_liberados/pruebas/a.c
