@@ -21,6 +21,7 @@ long long fib_rec(int n) {
     prof_actual++;
     if (prof_actual > prof_max) prof_max = prof_actual;
     contador++;
+    //printf("[%lld]\n",contador);
     if (n <= 1) { prof_actual--; return n; }
     long long r = fib_rec(n - 1) + fib_rec(n - 2);
     prof_actual--;
@@ -42,7 +43,7 @@ long long fib_memo(int n) {
 }
 
 int main(void) {
-    int n = 10;
+    int n = 35;
     long long r;
 
     /* fib_rec */

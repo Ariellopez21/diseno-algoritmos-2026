@@ -29,7 +29,7 @@ void mostrar_memoria(int n) {
 }
 
 int main(void) {
-       int n = 10;
+       int n = 35;
 
        mostrar_memoria(n);
 

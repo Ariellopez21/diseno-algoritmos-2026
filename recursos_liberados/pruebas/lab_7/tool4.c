@@ -201,7 +201,7 @@ int main(void) {
     printf("  n      │ fib_iter │    fib_rec    │ fib_memo │ fib_tab\n");
     separador();
 
-    int ns_demo[] = {5, 10, 15, 20, 25, 30};
+    int ns_demo[] = {5, 10, 15, 20, 25};
     int total     = sizeof(ns_demo) / sizeof(ns_demo[0]);
     for (int i = 0; i < total; i++)
         fila_contadores(ns_demo[i]);
