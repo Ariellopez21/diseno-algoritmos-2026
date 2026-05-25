@@ -1,0 +1,180 @@
+
+
+*******************************************************************************
+Fri May 22 19:24:13 2026
+
+
+FIT:    data read from "db/schedulling_naive.csv"     using 1:($2 > 0.09 ? $2 : 1/0) every ::1
+        format = x:z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * exp(b * x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.9599530065e+02   0.00e+00  6.08e+01    1.000000e-03   5.000000e-01
+ 103 1.2889878045e+02  -4.34e-02  6.08e-05    2.086518e-02   3.518216e-01
+
+After 103 iterations the fit converged.
+final sum of squares of residuals : 128.899
+rel. change during last iteration : -4.34326e-07
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.01402
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16.1123
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.0208652        +/- 0.03565      (170.8%)
+b               = 0.351822         +/- 0.08922      (25.36%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.998  1.000 
+
+
+*******************************************************************************
+Fri May 22 19:24:13 2026
+
+
+FIT:    data read from "db/schedulling_weighted_dp.csv"     using 1:2 every ::1
+        format = x:z
+        #datapoints = 18
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = ag * x * log(x) + cg
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'cg' is zero.
+iter      chisq       delta/lim  lambda   ag            cg           
+   0 2.5187199226e+08   0.00e+00  4.89e+03    5.000000e+00   1.000000e-30
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Fri May 22 19:24:13 2026
+
+
+FIT:    data read from "db/schedulling_weighted_greedy.csv"     using 1:2 every ::1
+        format = x:z
+        #datapoints = 14
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = ah * x**2 + bh * x + ch
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'ch' is zero.
+iter      chisq       delta/lim  lambda   ah            bh            ch           
+   0 1.3391902177e+08   0.00e+00  9.28e+02    5.000000e-02   1.000000e+00   1.000000e-30
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Fri May 22 19:24:13 2026
+
+
+FIT:    data read from "db/schedulling_greedy.csv"     using 1:2 every ::1
+        format = x:z
+        #datapoints = 18
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = ag * x * log(x) + cg
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'cg' is zero.
+iter      chisq       delta/lim  lambda   ag            cg           
+   0 6.9403691307e+07   0.00e+00  4.89e+03    5.000000e+00   1.000000e-30
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Fri May 22 19:24:13 2026
+
+
+FIT:    data read from "db/schedulling_weighted_greedy.csv"     using 1:2 every ::1
+        format = x:z
+        #datapoints = 14
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = ah * x**2 + bh * x + ch
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'ch' is zero.
+iter      chisq       delta/lim  lambda   ah            bh            ch           
+   0 1.3391902177e+08   0.00e+00  9.28e+02    5.000000e-02   1.000000e+00   1.000000e-30
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Fri May 22 19:28:40 2026
+
+
+FIT:    data read from "db/schedulling_naive.csv"     using 1:($2 > 0.09 ? $2 : 1/0) every ::1
+        format = x:z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * exp(b * x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.5751138202e+02   0.00e+00  6.08e+01    1.000000e-03   5.000000e-01
+ 106 1.1037259751e+02  -2.99e-04  6.08e-02    2.195132e-02   3.457751e-01
+
+After 106 iterations the fit converged.
+final sum of squares of residuals : 110.373
+rel. change during last iteration : -2.99409e-09
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71437
+variance of residuals (reduced chisquare) = WSSR/ndf   : 13.7966
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.0219513        +/- 0.03642      (165.9%)
+b               = 0.345775         +/- 0.08673      (25.08%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.997  1.000 
+
+
+*******************************************************************************
+Mon May 25 02:42:12 2026
+
+
+FIT:    data read from "db/schedulling_naive.csv"     using 1:($2 > 0.09 ? $2 : 1/0) every ::1
+        format = x:z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * exp(b * x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.1267036325e+02   0.00e+00  6.08e+01    1.000000e-03   5.000000e-01
+ 106 7.6130767058e+01  -4.61e-03  6.08e-03    1.892341e-02   3.424770e-01
+
+After 106 iterations the fit converged.
+final sum of squares of residuals : 76.1308
+rel. change during last iteration : -4.60966e-08
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.08486
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.51635
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.0189234        +/- 0.03192      (168.7%)
+b               = 0.342477         +/- 0.08824      (25.77%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.997  1.000 
