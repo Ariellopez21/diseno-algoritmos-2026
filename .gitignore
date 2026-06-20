@@ -14,3 +14,7 @@ recursos_liberados/pruebas/lab_7/*.o
 recursos_liberados/pruebas/lab_7/*.png
 recursos_liberados/pruebas/lab_7/*.csv
 recursos_liberados/pruebas/a.c
+
+# Permitir los PDF de estas carpetas
+!recursos_liberados/pruebas/lab_12/*.pdf
+!recursos_liberados/pruebas/lab_13/*.pdf
