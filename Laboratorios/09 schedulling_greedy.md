@@ -20,11 +20,11 @@ Intervalo  Inicio  Fin  Peso
 Visualizado en una línea de tiempo:
 ```
 Tiempo: 0    1    2    3    4    5    6    7    8
-    A:  [=========]
-    B:  [========================]
-    C:                 [==============]
-    D:            [=========]
-    E:                                [=========]
+    B:  [============6===========]
+    A:  [====4====]   
+    C:                 [=======4======]
+    E:                                [====3====]
+    D:            [====1====]
 ```
 
 - A y D: A termina en 2 y D empieza en 2 → **compatibles** (no hay solapamiento estricto).
